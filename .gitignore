@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.jsonl
+redteam_results.json
+redirect_results.json
+identity_results.json
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,12 @@
+{
+  "max_credits_per_run": 10000,
+  "max_pages_per_run": 1000,
+  "max_concurrency": 20,
+  "allow_browser": true,
+  "allow_experimental": false,
+  "allowed_domains": [],
+  "blocked_domains": [],
+  "redact_secrets": true,
+  "telemetry": "anonymous",
+  "auto_signup": true
+}
