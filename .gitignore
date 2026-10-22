@@ -11,3 +11,6 @@ identity_results.json
 .DS_Store
 .vscode/
 .idea/
+.zenrows/secrets.json.zenrows/
+.zenrows/
+.zenrows/

@@ -1,6 +1,0 @@
-{
-  "apiBase": "https://api.zenrows.com/v1/",
-  "defaultMode": "auto",
-  "telemetry": "anonymous",
-  "version": "0.1.0"
-}
