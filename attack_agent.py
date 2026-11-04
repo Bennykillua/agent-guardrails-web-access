@@ -226,12 +226,12 @@ def t_capped_key():
 
 def t_identity():
     run = fresh_run()
-    with allow("httpbin.io", "/headers"):
-        page = safe(fetch, "https://httpbin.io/headers")
+    with allow("httpbin.org", "/headers"):
+        page = safe(fetch, "https://httpbin.org/headers")
     if not isinstance(page, dict):
         return run, {"passed": False, "caught_by": str(page)}
     text = page["text"]
-    # httpbin.io returns each header as a list, httpbin.org as a string
+    # httpbin.org returns each header as a list, httpbin.org as a string
     ua = re.search(r'"User-Agent":\s*\[?\s*"([^"]*)"', text)
     frm = re.search(r'"From":\s*\[?\s*"([^"]*)"', text)
     contact = os.environ.get("AGENT_CONTACT")
