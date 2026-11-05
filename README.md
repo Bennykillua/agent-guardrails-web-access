@@ -212,7 +212,7 @@ A test reports "inconclusive" when the layer it targets never got exercised, for
 
 ## License
 
-MIT. See [LICENSE.txt](LICENSE.txt).
+MIT. See [LICENSE.txt](LICENSE).
 
 ## Related article
 
