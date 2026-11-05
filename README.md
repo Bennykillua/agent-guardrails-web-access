@@ -218,4 +218,4 @@ MIT. See [LICENSE.txt](LICENSE.txt).
 
 This repository accompanies the Zenrows article:
 
-[AI Agent Guardrails for Web Access: Allowlists, Rate Limits and Spending Caps]()
+[AI Agent Guardrails for Web Access: Allowlists, Rate Limits and Spending Caps](https://www.zenrows.com/blog/agent-guardrails-for-web-access-allowlists-rate-limits-and-spending-caps)
